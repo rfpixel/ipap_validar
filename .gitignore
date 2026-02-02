@@ -1,0 +1,17 @@
+# Entornos virtuales
+venv/
+.venv/
+env/
+
+# Datos y archivos generados
+data/
+*.csv
+*.xlsx
+
+# Python
+__pycache__/
+*.pyc
+
+# VS Code u otros editores
+.vscode/
+.idea/
