@@ -47,5 +47,6 @@ Para probar la robustez del sistema, puedes generar un archivo de prueba con err
 **Desarrollado por:** Rafael Caceres Petkowicz ([rcpetkowicz@gmail.com](mailto:rcpetkowicz@gmail.com))  
 **Área:** DPID - DATOS ([rafael.caceres@gba.gob.ar](mailto:rafael.caceres@gba.gob.ar))
 
-**Colaboración Equipo de Administración DPID:** * Tatiana Maria LOPEZ ([tatiana.lopez@gba.gob.ar](mailto:tatiana.lopez@gba.gob.ar))  
+**Colaboración Equipo de Administración DPID:** 
+* Tatiana Maria LOPEZ ([tatiana.lopez@gba.gob.ar](mailto:tatiana.lopez@gba.gob.ar))  
 * Juliana CAPUTTO ([juliana.caputto@gba.gob.ar](mailto:juliana.caputto@gba.gob.ar))
