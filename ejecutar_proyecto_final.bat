@@ -1,9 +1,9 @@
 @echo off
-title Sistema de Gestion DPID - Streamlit
+title Sistema de Gestion IPAP - Streamlit
 set VENV_NAME=venv
 
 echo ====================================================
-echo   🚀 INICIANDO ENTORNO PARA SISTEMA DE GESTION
+echo    🚀 INICIANDO ENTORNO PARA SISTEMA DE GESTION
 echo ====================================================
 
 :: 1. Verificar si Python está instalado
@@ -24,7 +24,13 @@ if not exist %VENV_NAME% (
 echo [INFO] Activando entorno virtual...
 call %VENV_NAME%\Scripts\activate
 
-:: 4. Verificacion inteligente de paquetes instalados
+:: 4. Verificar existencia de carpeta data
+if not exist data (
+    echo [INFO] Creando carpeta 'data' para almacenamiento...
+    mkdir data
+)
+
+:: 5. Verificacion inteligente de paquetes instalados
 echo [INFO] Verificando paquetes necesarios...
 
 :: Comprobamos si streamlit, pandas y openpyxl ya estan en el entorno
@@ -42,10 +48,10 @@ if %errorlevel% neq 0 (
     echo [OK] Todos los paquetes estan instalados. Saltando actualizacion.
 )
 
-:: 5. Limpiar consola y lanzar la app
+:: 6. Limpiar consola y lanzar la app
 cls
 echo ====================================================
-echo   ✅ SERVIDOR LISTO - LANZANDO APLICACION
+echo    ✅ SERVIDOR LISTO - LANZANDO APLICACION
 echo ====================================================
 streamlit run app_final.py
 
