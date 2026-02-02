@@ -44,5 +44,5 @@ Para probar la robustez del sistema, puedes generar un archivo de prueba con err
 * Cualquier cambio en las columnas del CSV original debe actualizarse en la constante `COLUMNAS_REQUERIDAS` dentro de `app_final.py`.
 
 ---
-**Desarrollado por:** Rafael Caceres Petkowicz (rcpetkowicz@gmail.com)  
-**Área:** DPID - DATOS (rafael.caceres@gba.gob.ar)
+**Desarrollado por:** Rafael Caceres Petkowicz ([rcpetkowicz@gmail.com](mailto:rcpetkowicz@gmail.com))  
+**Área:** DPID - DATOS ([rafael.caceres@gba.gob.ar](mailto:rafael.caceres@gba.gob.ar))

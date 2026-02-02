@@ -1,7 +1,4 @@
-pandas
-numpy
-openpyxl
-jupyter
-notebook
-ipykernel
-streamlit
+pandas>=2.1.0
+streamlit>=1.30.0
+openpyxl>=3.1.0
+numpy>=1.26.0
